@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Listen",
+    "description": "Displays selected text in popup",
+    "version": "1.0.0",
+    "action": {
+       "default_title": "Click to show an alert",
+       "default_popup":"popup.html"
+    },
+    "permissions": [
+      "activeTab",
+      "scripting",
+      "contextMenus",
+      "storage"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
