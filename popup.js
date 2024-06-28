@@ -1,22 +1,25 @@
 const speechSynth = window.speechSynthesis;
-
 const select = document.getElementById("voices");
 
 function voicesPopulate() {
-	speechSynth.addEventListener("voiceschanged", populateOptions);
+	// First call to populateOptions to trigger voiceschanged event if needed
 	populateOptions();
-	chrome.storage.sync.get(["preferredVoiceIndex"], function (result) {
-		if (result.preferredVoiceIndex !== undefined) {
-			select.value = result.preferredVoiceIndex;
-		}
-	});
+	// Add event listener for voiceschanged event
+	speechSynth.addEventListener("voiceschanged", populateOptions);
 }
 
-// Function to populate options
 function populateOptions() {
-	const voices = speechSynth.getVoices().filter((voice) => {
-		return voice.name.includes("Google");
-	});
+	let voices = speechSynth.getVoices();
+
+	console.log("voices before:" + voices.length);
+
+	if (voices.length === 0) {
+		// Retry after a short delay if no voices are available yet
+		setTimeout(populateOptions, 100);
+		return;
+	}
+
+	console.log("voices with filter" + voices.length);
 
 	select.innerHTML = "";
 
@@ -25,6 +28,12 @@ function populateOptions() {
 		optionElement.value = index;
 		optionElement.textContent = voice.name;
 		select.appendChild(optionElement);
+	});
+
+	chrome.storage.sync.get(["preferredVoiceIndex"], function (result) {
+		if (result.preferredVoiceIndex !== undefined) {
+			select.value = result.preferredVoiceIndex;
+		}
 	});
 }
 
@@ -52,9 +61,7 @@ chrome.runtime.onMessage.addListener((message) => {
 
 		if (!speechSynth.speaking && text.trim().length) {
 			const newUtter = new SpeechSynthesisUtterance(text);
-			const voices = speechSynth
-				.getVoices()
-				.filter((voice) => voice.name.includes("Google"));
+			const voices = speechSynth.getVoices();
 			newUtter.voice = voices[select.value];
 			speechSynth.speak(newUtter);
 		}
