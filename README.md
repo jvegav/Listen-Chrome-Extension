@@ -41,7 +41,7 @@ We welcome contributions to enhance the functionality and user experience of Lis
 
 ## Issues
 
-If you encounter any issues while using Listen, please report them [here](https://github.com/yourusername/listen/issues).
+If you encounter any issues while using Listen, please report them [here](https://github.com/jvegav/Listen-Chrome-Extension/issues).
 
 ## License
 
