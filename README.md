@@ -1,7 +1,6 @@
 # Listen - Chrome Extension
 
-![Listen Logo](![png-normal](https://github.com/jvegav/Listen-Chrome-Extension/assets/111019484/37c38cb3-9151-4662-9b48-fbdf61d50aef)
-)
+![png-normal](https://github.com/jvegav/Listen-Chrome-Extension/assets/111019484/355e08af-87ba-4417-bd24-b3e22ca18486)
 
 **Listen** is a powerful Chrome extension designed to enhance your browsing experience by reading selected text aloud in the language of your choice. Whether you're browsing articles, reading documents, or studying foreign languages, Listen makes it easy to listen to the content you select, providing a hands-free and convenient way to absorb information.
 
