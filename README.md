@@ -1,53 +1,68 @@
-# Listen - Chrome Extension
+# 🎧 Listen - Chrome Extension
 
+**Listen** is a simple yet powerful Chrome extension that enhances your browsing experience by reading selected text aloud in the language of your choice. Whether you're reading articles, studying, or learning a new language, **Listen** brings content to life with just one click.
 
+---
 
+## ✨ Key Features
 
-**Listen** is a powerful Chrome extension designed to enhance your browsing experience by reading selected text aloud in the language of your choice. Whether you're browsing articles, reading documents, or studying foreign languages, Listen makes it easy to listen to the content you select, providing a hands-free and convenient way to absorb information.
+- 🔊 **Text-to-Speech Conversion:** Instantly listen to any selected text on a webpage using high-quality voice synthesis.
+- 🌐 **Multi-language Support:** Choose from a wide variety of languages and accents to personalize your experience.
+- 🖱️ **User-Friendly Interface:** Just select, click, and play. No setup, no fuss.
+- 📥 **Offline Mode:** Download language packs and use Listen even without an internet connection.
 
-## Key Features
+---
 
-- **Text-to-Speech Conversion:** Select any text on a webpage and listen to it instantly with high-quality voice output.
-- **Language Support:** Choose from a wide range of languages and accents to suit your preferences and needs.
-- **User-Friendly Interface:** Simply select the text, open the extension, and press play. It's that easy!
-- **Offline Mode:** Download language packs and use Listen even when you don't have an internet connection.
+## 💡 Why Listen?
 
-## Why Listen?
+As a language learner, I often struggled with pronunciation. I constantly copied and pasted text into Google Translate just to hear how it sounded — a repetitive and time-consuming process.  
+That’s why I built **Listen** — to simplify pronunciation and make language learning more efficient, immersive, and hands-free. Whether you're a student, traveler, or multitasker, **Listen** helps you engage with content effortlessly.
 
-In my experience learning a new language, I often found myself unsure of how many sentences or words were pronounced. I had to constantly use Google Translate, copying and pasting each word or sentence to learn the pronunciation. This process was cumbersome and time-consuming. To make language learning easier and more efficient, I developed Listen. By turning your selected text into an audio experience, Listen is the perfect companion for anyone looking to improve their language skills or simply enjoy a hands-free reading experience.
+---
 
-## Installation
+## 🚀 Installation
 
-1. Download the extension from the [Chrome Web Store](https://chromewebstore.google.com/detail/listen/ldeddijiebddhpfbjjhhpmnfgapaelgh?hl=es).
-2. Click on the **Add to Chrome** button.
-3. Confirm by clicking on **Add extension** in the pop-up window.
+1. Head over to the [Chrome Web Store](https://chromewebstore.google.com/detail/listen/ldeddijiebddhpfbjjhhpmnfgapaelgh?hl=es).  
+2. Click **Add to Chrome**.  
+3. Confirm by selecting **Add Extension**.
 
-## Usage
+---
 
-1. Highlight the text you want to hear.
-2. Click on the **Listen** extension icon in your Chrome toolbar.
-3. Select your preferred language.
-4. Press the play button to start listening.
+## ▶️ How to Use
 
-## Contributing
+1. **Highlight** the text you want to hear.  
+2. Click the **Listen** icon in your Chrome toolbar.  
+3. Select your **preferred language**.  
+4. Press **Play** and enjoy!
 
-We welcome contributions to enhance the functionality and user experience of Listen. If you'd like to contribute, please follow these steps:
+---
 
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/your-feature-name`).
-3. Make your changes and commit them (`git commit -m 'Add some feature'`).
-4. Push to the branch (`git push origin feature/your-feature-name`).
+## 🤝 Contributing
+
+Contributions are welcome! Here's how you can help improve **Listen**:
+
+1. Fork the repository.  
+2. Create a new branch: `git checkout -b feature/your-feature-name`.  
+3. Commit your changes: `git commit -m 'Add some feature'`.  
+4. Push to your branch: `git push origin feature/your-feature-name`.  
 5. Open a Pull Request.
 
-## Issues
+---
 
-If you encounter any issues while using Listen, please report them [here](https://github.com/jvegav/Listen-Chrome-Extension/issues).
+## 🐛 Issues
 
-## License
+Found a bug or want to request a feature?  
+Submit it [here](https://github.com/jvegav/Listen-Chrome-Extension/issues).
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+---
 
-## Acknowledgments
+## 📄 License
 
-- Special thanks to all the contributors who have helped make Listen better.
-- Inspired by the need for a more convenient and efficient way to learn new languages.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more info.
+
+---
+
+## 🙏 Acknowledgments
+
+- Thanks to all contributors and testers who have supported **Listen**.  
+- Inspired by everyday struggles in language learning — built to make life easier and smarter.
